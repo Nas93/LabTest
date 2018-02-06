@@ -12,7 +12,9 @@
         android:id="@+id/ed"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="40dp" />
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -29,6 +31,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/red"
         android:text="RED"
+        android:layout_centerHorizontal="true"
         android:textStyle="bold"
         android:layout_below="@+id/green"
         android:textColor="@color/red" />
@@ -36,7 +39,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/blue"
+        android:id="@+id/blue"android:layout_centerHorizontal="true"
+
         android:text="BLUE"
         android:textStyle="bold"
         android:layout_below="@+id/red"
